@@ -1,0 +1,13 @@
+{
+  "name": "Google App Toolbar Organizer",
+  "version": "1.0",
+  "description": "Allows you to rearrange Google's Application Toolbar.",
+  "options_page": "options.html",
+  "background_page": "background.html",
+  "content_scripts": [
+    {
+      "matches": ["https://*.google.com/*"],
+      "js": ["scripts/jquery.min.js", "scripts/content.js"]
+    }
+  ]
+}

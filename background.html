@@ -1,0 +1,19 @@
+<html>
+  <script>
+    chrome.extension.onRequest.addListener(
+      function(request, sender, sendResponse) {
+        if (request.localstorage == "gato_selected") {
+          if (localStorage.gato_selected) {
+            sendResponse({gato_selected: localStorage.gato_selected});
+          }
+          else {
+            sendResponse({});
+          }
+        }
+      });
+  </script>
+</html>
+
+
+
+
