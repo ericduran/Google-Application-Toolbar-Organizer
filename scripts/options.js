@@ -2,16 +2,16 @@ jQuery(function($) {
 
   // Application list
   var apps = [
-    {"title": "Gmail", "url": "https://www.google.com/calendar/render?tab=mc"},
-    {"title": "Calendar", "url": "https://www.google.com/calendar/render?tab=mc"},
-    {"title": "Documents", "url": "https://www.google.com/calendar/render?tab=mc"},
-    {"title": "Reader", "url": "https://www.google.com/calendar/render?tab=mc"},
-    {"title": "Web", "url": "https://www.google.com/calendar/render?tab=mc"},
-    {"title": "Photos", "url": "https://www.google.com/calendar/render?tab=mc"},
-    {"title": "Sites", "url": "https://www.google.com/calendar/render?tab=mc"},
-    {"title": "Groups", "url": "https://www.google.com/calendar/render?tab=mc"},
-    {"title": "Youtube", "url": "https://www.google.com/calendar/render?tab=mc"},
-    {"title": "Voice", "url": "https://www.google.com/calendar/render?tab=mc"}
+    {"title": "Gmail"},
+    {"title": "Calendar"},
+    {"title": "Documents"},
+    {"title": "Reader"},
+    {"title": "Web"},
+    {"title": "Photos"},
+    {"title": "Sites"},
+    {"title": "Groups"},
+    {"title": "Youtube"},
+    {"title": "Voice"}
   ];
   
   // Populate the select list with the applications
