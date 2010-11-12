@@ -1,0 +1,12 @@
+Nice little Google helper.
+
+It lets you rearrange the top bar you see on most google sites, such as gmail, calendar,  docs.
+
+I also added links that aren't available such as google voice.
+
+I'll push this out to the Google extension gallery later in the week.
+
+I didn't test this on every Google app, mainly because is Google and they have a lot of apps :-p but this should work in the more common ones.
+
+!!TODO:
+ - It'll be nice to add custom links options. So users can add quicklinks to the top menu bar
